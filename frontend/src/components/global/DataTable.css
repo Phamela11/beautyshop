@@ -1,0 +1,118 @@
+.data-table-container {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  border: 1px solid #f0e9eb;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.data-table thead {
+  background: #fff;
+}
+
+.data-table th,
+.data-table td {
+  padding: 16px 20px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.data-table th {
+  color: #7a5a65;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #f0e7e9;
+}
+
+.data-table td {
+  color: #4a2030;
+  font-size: 14px;
+  border-bottom: 1px solid #f5eff0;
+}
+
+.data-table tbody tr {
+  background: #fff;
+}
+
+.data-table tbody tr:hover {
+  background: #fdf1f4;
+}
+
+.data-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.btn-secondary,
+.btn-edit {
+  padding: 8px 14px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #edd6dc;
+  color: #6a4050;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.btn-secondary:hover,
+.btn-edit:hover {
+  background: #fcf0f3;
+  border-color: #e6c2ca;
+}
+
+.btn-primary,
+.btn-delete {
+  padding: 8px 14px;
+  border-radius: 10px;
+  background: #c9536a;
+  border: 1px solid transparent;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-primary:hover,
+.btn-delete:hover {
+  background: #a63f55;
+}
+
+.btn-view {
+  padding: 8px 14px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #edd6dc;
+  color: #6a4050;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.btn-view:hover {
+  background: #fcf0f3;
+  border-color: #e6c2ca;
+}
+
+.btn-neutral,
+.btn-cancel {
+  padding: 8px 14px;
+  border-radius: 10px;
+  background: #f5f3f4;
+  border: 1px solid #e8e2e5;
+  color: #4a2030;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-neutral:hover,
+.btn-cancel:hover {
+  background: #ece4e7;
+}

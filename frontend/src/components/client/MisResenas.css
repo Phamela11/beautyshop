@@ -1,0 +1,213 @@
+.resenas-wrap h3 {
+  margin-bottom: 14px;
+}
+
+.resenas-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.resenas-tab {
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 1.5px solid #ece4e7;
+  background: #fff;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #7a5a65;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.resenas-tab:hover {
+  border-color: #c9536a;
+  color: #c9536a;
+}
+
+.resenas-tab.active {
+  background: #c9536a;
+  border-color: #c9536a;
+  color: #fff;
+}
+
+.resenas-badge {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 7px;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 700;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.resenas-tab.active .resenas-badge {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.resenas-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.resenas-card {
+  border: 1px solid #f0e7ea;
+  border-radius: 10px;
+  padding: 12px 14px;
+  background: #fdfcfd;
+}
+
+.resenas-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.resenas-product {
+  font-weight: 600;
+  color: #1a1015;
+  font-size: 14px;
+}
+
+.resenas-meta {
+  font-size: 11px;
+  color: #9c7a85;
+}
+
+.resenas-stars-static {
+  display: flex;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.resenas-stars-static svg {
+  width: 16px;
+  height: 16px;
+}
+
+.resenas-star-on {
+  fill: #eab308;
+  stroke: #ca8a04;
+  stroke-width: 1;
+}
+
+.resenas-star-off {
+  fill: #f4f4f5;
+  stroke: #d4d4d8;
+  stroke-width: 1;
+}
+
+.resenas-comment {
+  font-size: 13px;
+  color: #4a2030;
+  line-height: 1.45;
+  margin-top: 8px;
+}
+
+.resenas-empty {
+  text-align: center;
+  padding: 28px 16px;
+  color: #9c7a85;
+  font-size: 13px;
+  border: 1px dashed #ece4e7;
+  border-radius: 10px;
+  background: #faf7f8;
+}
+
+.resenas-hint {
+  font-size: 12px;
+  color: #9c7a85;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.resenas-modal-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1a1015;
+  margin-bottom: 4px;
+}
+
+.resenas-modal-sub {
+  font-size: 12px;
+  color: #9c7a85;
+  margin-bottom: 12px;
+}
+
+.resenas-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #b09aa0;
+  margin-bottom: 6px;
+}
+
+.resenas-stars-input {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 14px;
+}
+
+.resenas-stars-input button {
+  background: none;
+  border: none;
+  padding: 2px;
+  cursor: pointer;
+  line-height: 0;
+}
+
+.resenas-stars-input svg {
+  width: 28px;
+  height: 28px;
+}
+
+.resenas-textarea {
+  width: 100%;
+  min-height: 88px;
+  padding: 10px 12px;
+  border: 1.5px solid #ece4e7;
+  border-radius: 10px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 13px;
+  resize: vertical;
+  margin-bottom: 12px;
+  outline: none;
+}
+
+.resenas-textarea:focus {
+  border-color: #c9536a;
+}
+
+.resenas-error {
+  font-size: 12px;
+  color: #b91c1c;
+  margin-bottom: 8px;
+}
+
+.resenas-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.resenas-btn-ghost {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1.5px solid #ece4e7;
+  background: #fff;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 13px;
+  cursor: pointer;
+  color: #7a5a65;
+}
+
+.resenas-btn-ghost:hover {
+  border-color: #c9536a;
+  color: #c9536a;
+}
