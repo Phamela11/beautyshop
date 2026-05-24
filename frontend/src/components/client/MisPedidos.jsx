@@ -44,7 +44,7 @@ const MisPedidos = () => {
 
   const verDetalle = async (pedido) => {
     try {
-      const res  = await fetch(`http://localhost:3000/api/pedidos/${pedido.id_pedido}`);
+      const res  = await fetch(`https://beautyshop-production.up.railway.app/api/pedidos/${pedido.id_pedido}`);
       const data = await res.json();
       setDetalle({ ...data, estado_envio: pedido.estado_envio, empresa_envio: pedido.empresa_envio, numero_guia: pedido.numero_guia, ciudad: pedido.ciudad, direccion_envio: pedido.direccion_envio });
     } catch (err) {

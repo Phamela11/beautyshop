@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { productService } from "../../services/productService";
 
-const API_BASE = "http://localhost:3000";
+const API_BASE = "https://beautyshop-production.up.railway.app";
 
 export const useHome = () => {
   const navigate = useNavigate();

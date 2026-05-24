@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { productService } from '../../services/productService';
 import './Pedido.css';
 
-const API = 'http://localhost:3000/api';
+const API = "https://beautyshop-production.up.railway.app/api";
 const fmt = (n) => `$${Number(n || 0).toLocaleString('es-CO')}`;
 const fmtDate = (d) => new Date(d).toLocaleString('es-CO', {
   day: '2-digit', month: '2-digit', year: 'numeric',

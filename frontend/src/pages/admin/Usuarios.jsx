@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import './Usuarios.css';
 import { userService } from '../../services/userService';
 
-const API  = 'http://localhost:3000/api';
+const API = "https://beautyshop-production.up.railway.app/api";
 const fmt  = (n) => `$${Number(n || 0).toLocaleString('es-CO', { minimumFractionDigits: 0 })}`;
 const fmtD = (d) => d ? new Date(d).toLocaleDateString('es-CO') : '—';
 

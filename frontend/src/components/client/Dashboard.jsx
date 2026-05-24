@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { productService } from "../../services/productService";
 import { Icons } from "../../data/clientData";
 
-const API = "http://localhost:3000/api";
+const API = "https://beautyshop-production.up.railway.app/api";
 const fmt     = (n) => `$${Number(n || 0).toLocaleString("es-CO", { minimumFractionDigits: 0 })}`;
 const fmtDate = (d) => new Date(d).toLocaleDateString("es-CO", { day: "2-digit", month: "2-digit", year: "numeric" });
 
@@ -54,7 +54,7 @@ const Dashboard = ({ setActive }) => {
             id:     p.id_producto,
             nombre: p.nombre,
             precio: fmt(p.precio),
-            imagen: p.imagenes?.[0] ? `http://localhost:3000${p.imagenes[0]}` : null,
+            imagen: p.imagenes?.[0] ? `https://beautyshop-production.up.railway.app${p.imagenes[0]}` : null,
           }));
         setProductos(activos);
       } catch (err) {

@@ -1,6 +1,6 @@
 import { Ic } from "../../data/homeData";
 
-const API_BASE = "http://localhost:3000";
+const API = "https://beautyshop-production.up.railway.app/api";
 const fmt = (n) => n > 0 ? `$${Math.round(n).toLocaleString('es-CO')}` : null;
 
 const Hero = ({ navigate, stats }) => {

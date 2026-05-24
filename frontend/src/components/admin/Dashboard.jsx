@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Ic } from "../../data/adminData";
 import { productService } from "../../services/productService";
 
-const API = "http://localhost:3000/api";
+const API = "https://beautyshop-production.up.railway.app/api";
 
 const fmt = (n) => `$${Number(n).toLocaleString("es-CO")}`;
 const fmtDate = (d) => new Date(d).toLocaleDateString("es-CO");

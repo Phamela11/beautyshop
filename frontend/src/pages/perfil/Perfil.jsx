@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import './Perfil.css';
 
-const API = 'http://localhost:3000/api';
+const API = "https://beautyshop-production.up.railway.app/api";
 const EMPTY_VALUE = '-';
 
 const EyeOpen = () => (

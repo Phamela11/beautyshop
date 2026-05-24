@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './Reportes.css';
 
-const API  = 'http://localhost:3000/api';
+const API = "https://beautyshop-production.up.railway.app/api";
 const fmt  = (n) => `$${Number(n || 0).toLocaleString('es-CO', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}`;
 const fmtD = (d) => d ? new Date(d).toLocaleDateString('es-CO') : '—';
 const pct  = (g, i) => i > 0 ? ((g / i) * 100).toFixed(1) + '%' : '—';

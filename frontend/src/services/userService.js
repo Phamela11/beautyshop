@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:3000/api";
+const API_BASE = "https://beautyshop-production.up.railway.app/api";
 
 export const userService = {
   async getUsuarios() {

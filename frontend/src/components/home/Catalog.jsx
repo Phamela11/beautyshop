@@ -1,7 +1,7 @@
 import { Ic } from "../../data/homeData";
 import StarRow from "../global/StarRow";
 
-const API_BASE = "http://localhost:3000";
+const API = "https://beautyshop-production.up.railway.app/api";
 
 const Catalog = ({ filtered, activeFilter, setFilter, addToCart, categories, loading }) => {
   return (
